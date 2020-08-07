@@ -1,4 +1,3 @@
-
 .page-header {
     display: flex;
     flex-direction: column;
@@ -42,9 +41,17 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .header-content p {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+    margin-top: 2.4rem;
+}
+
 @media (min-width:700px) {
     .page-header {
-        height:340px;
+        height: 340px;
     }
 
     .page-header .top-bar-container {
@@ -52,14 +59,14 @@
     }
 
     .page-header .header-content {
-        flex:1;
+        flex: 1;
         max-width: 740px;
         margin: 0 auto;
         padding-bottom: 48px;
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items:flex-start;
+        align-items: flex-start;
     }
 
     .page-header .header-content strong {
